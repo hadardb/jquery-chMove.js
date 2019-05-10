@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js" ></script>
+		<script type="text/javascript" src="js/chMove.js" ></script>
+		<link rel="stylesheet" href="css/chMove.css" />
+		<style>
+			.zoom_box{
+				width: 400px;
+				height: 500px;
+				left: 400px;
+				top:200px;
+				background-color: black;
+			}
+				.zoom_box div{
+	
+					color: aqua;
+				}
+		</style>
+	</head>
+	<body>
+		<div class="zoom_box">
+			<div id="asdwe1245qwd" class="zoom_box_li " data-move=''>我是测试模块3</div>
+			<div id="asdqwd" class="zoom_box_li " data-move='true'>我是测试模块1</div>
+			<div id="asdweqwd" class="zoom_box_li " data-move='true'>我是测试模块2</div>
+			
+		</div>
+	</body>
+	<script>
+		new chMove($('.zoom_box'),40,40,false)
+	</script>
+</html>
