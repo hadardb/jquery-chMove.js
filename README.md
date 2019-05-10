@@ -17,7 +17,6 @@ isAllChange：true||false,是否所有子元素都添加功能
 	\<div id="asdwe1245qwd" class="zoom_box_li " data-move=''>我是测试模块3\</div>
 	\<div id="asdqwd" class="zoom_box_li " data-move='true'>我是测试模块1\</div>
 	\<div id="asdweqwd" class="zoom_box_li " data-move='true'>我是测试模块2\</div>
-
 \</div>
 <script>
 new chMove($('.zoom_box'),40,40,false)
